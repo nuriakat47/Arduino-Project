@@ -1,0 +1,51 @@
+name: ardunioproject
+description: "A new Flutter project."
+
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.2
+  shared_preferences: ^2.2.2
+  http: ^1.2.1
+  flutter_native_splash: ^2.4.0
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  easy_localization: ^3.0.7
+
+flutter_native_splash:
+  color: "#ffffff"  # Splash ekranının arka plan rengi
+  image: assets/icon/pi_health_technologies_logo.jpeg  # Splash ekranında gösterilecek resim
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/pi_health_technologies_logo.jpeg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/green.jpg
+    - assets/images/logo_white.png
+    - assets/icon/logo.jpg
+    - assets/images/pi_vr_logo.jpeg
+    - assets/icon/pi_health_technologies_logo.jpeg
+    - assets/translations/
+    - assets/images/english.png
+    - assets/images/german.png
+    - assets/images/turkish.png
